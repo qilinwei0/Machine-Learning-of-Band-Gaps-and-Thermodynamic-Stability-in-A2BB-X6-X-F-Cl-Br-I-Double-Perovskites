@@ -1,0 +1,4 @@
+﻿task,samples,features,train,validation,test,features_with_missing,max_missing_rate,constant_features_in_train,duplicate_mpid,train_val_formula_overlap,train_test_formula_overlap,val_test_formula_overlap,target_min,target_q1,target_median,target_q3,target_max
+Bandgap regression,1418,398,974,221,223,8,0.44992947813822287,20,0,0,0,0,0.0001999999999999,1.3883,2.471138659827772,3.840325,8.3194
+Energy-above-hull regression,1961,398,1373,297,291,8,0.34370219275879654,6,0,0,0,0,0.0,0.0137817635000008,0.0617578342500002,0.1217060304499986,0.8171421753333323
+Stability classification,1961,398,1373,297,291,8,0.34370219275879654,6,0,0,0,0,0.0,0.0,0.0,1.0,1.0

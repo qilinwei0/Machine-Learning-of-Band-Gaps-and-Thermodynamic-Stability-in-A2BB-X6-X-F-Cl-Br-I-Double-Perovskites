@@ -1,0 +1,25 @@
+﻿task,feature,missing_count,missing_rate
+Bandgap regression,feat_phys_B_d0_or_d10_count,638,0.44992947813822287
+Bandgap regression,feat_phys_B_d_after_ox_mean,638,0.44992947813822287
+Bandgap regression,feat_phys_B_oxidation_absdiff,14,0.009873060648801129
+Bandgap regression,feat_phys_B_oxidation_max,14,0.009873060648801129
+Bandgap regression,feat_phys_B_oxidation_mean,14,0.009873060648801129
+Bandgap regression,feat_phys_B_oxidation_min,14,0.009873060648801129
+Bandgap regression,feat_phys_heterovalent_B_pair,14,0.009873060648801129
+Bandgap regression,feat_phys_oxidation_charge_residual,14,0.009873060648801129
+Energy-above-hull regression,feat_phys_B_d0_or_d10_count,674,0.34370219275879654
+Energy-above-hull regression,feat_phys_B_d_after_ox_mean,674,0.34370219275879654
+Energy-above-hull regression,feat_phys_B_oxidation_absdiff,15,0.007649158592554819
+Energy-above-hull regression,feat_phys_B_oxidation_max,15,0.007649158592554819
+Energy-above-hull regression,feat_phys_B_oxidation_mean,15,0.007649158592554819
+Energy-above-hull regression,feat_phys_B_oxidation_min,15,0.007649158592554819
+Energy-above-hull regression,feat_phys_heterovalent_B_pair,15,0.007649158592554819
+Energy-above-hull regression,feat_phys_oxidation_charge_residual,15,0.007649158592554819
+Stability classification,feat_phys_B_d0_or_d10_count,674,0.34370219275879654
+Stability classification,feat_phys_B_d_after_ox_mean,674,0.34370219275879654
+Stability classification,feat_phys_B_oxidation_absdiff,15,0.007649158592554819
+Stability classification,feat_phys_B_oxidation_max,15,0.007649158592554819
+Stability classification,feat_phys_B_oxidation_mean,15,0.007649158592554819
+Stability classification,feat_phys_B_oxidation_min,15,0.007649158592554819
+Stability classification,feat_phys_heterovalent_B_pair,15,0.007649158592554819
+Stability classification,feat_phys_oxidation_charge_residual,15,0.007649158592554819

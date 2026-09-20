@@ -1,0 +1,4 @@
+﻿task,method,nominal_coverage,quantile,empirical_coverage,average_width_or_set_size,n_samples,note
+Bandgap regression,split_conformal_interval,0.9,0.42270934641536684,0.8699551569506726,0.8454186928307338,223,
+Energy-above-hull regression,split_conformal_interval,0.9,0.040033799931209646,0.872852233676976,0.08006759986241928,291,
+Stability classification,split_conformal_set,0.9,0.76184430485225,0.9278350515463918,1.0721649484536082,291,avg_set_size

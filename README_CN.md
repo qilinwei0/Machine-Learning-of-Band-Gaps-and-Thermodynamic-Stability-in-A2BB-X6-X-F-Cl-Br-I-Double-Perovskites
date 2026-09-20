@@ -22,19 +22,19 @@ python -m pip install -r requirements.txt
 Windows：
 
 ```bat
-run_v9_ml.bat "D:\你的数据文件夹" "D:\输出\final_complete_corrected_package_v9"
+run_v9_ml.bat "D:\你的数据文件夹" "D:\输出\v9"
 ```
 
 Linux/macOS：
 
 ```bash
-bash run_v9_ml.sh "/path/to/input" "/path/to/output/final_complete_corrected_package_v9"
+bash run_v9_ml.sh "/path/to/input" "/path/to/output/v9"
 ```
 
 也可直接运行：
 
 ```bash
-python generate_v9_ml_data.py --input-dir /path/to/input --output-root /path/to/final_complete_corrected_package_v9
+python generate_v9_ml_data.py --input-dir /path/to/input --output-root /path/to/v9
 ```
 
 完整模式默认包括：500棵 Extra Trees、HistGradientBoosting、3次×4折重复分组交叉验证、500次 Bootstrap、10次置换重要性。CPU不同会影响运行时间，但相同 Python/NumPy/pandas/scikit-learn 版本和随机种子下结果可复现。
@@ -72,7 +72,7 @@ python generate_v9_ml_data.py --input-dir /path/to/input --output-root /path/to/
 生成后执行：
 
 ```bash
-python validate_v9_data.py --package-root /path/to/final_complete_corrected_package_v9
+python validate_v9_data.py --package-root /path/to/v9
 ```
 
 校验程序检查18张表的存在性、列数、空表以及三份原始任务数据的公式分组交叉泄漏。

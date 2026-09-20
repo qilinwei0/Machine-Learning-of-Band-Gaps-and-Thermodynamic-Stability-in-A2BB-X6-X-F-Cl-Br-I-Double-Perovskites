@@ -24,21 +24,21 @@ python -m pip install -r requirements.txt
 Windows:
 
 ```bat
-run_v9_ml.bat "D:\Your_Data_Folder" "D:\Output\final_complete_corrected_package_v9"
+run_v9_ml.bat "D:\Your_Data_Folder" "D:\Output\v9"
 
 ```
 
 Linux/macOS:
 
 ```bash
-bash run_v9_ml.sh "/path/to/input" "/path/to/output/final_complete_corrected_package_v9"
+bash run_v9_ml.sh "/path/to/input" "/path/to/output/v9"
 
 ```
 
 Alternatively, you can run it directly:
 
 ```bash
-python generate_v9_ml_data.py --input-dir /path/to/input --output-root /path/to/final_complete_corrected_package_v9
+python generate_v9_ml_data.py --input-dir /path/to/input --output-root /path/to/v9
 
 ```
 
